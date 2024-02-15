@@ -1,0 +1,32 @@
+Déclarer les matrices A et B de taille 3x3
+Déclarer la matrice résultante S de taille 3x3
+
+Pour i allant de 1 à 3 :
+    Pour j allant de 1 à 3 :
+        S[i][j] = 0  // Initialiser chaque élément de la matrice résultante à 0
+
+// Saisie des éléments de la matrice A par l'utilisateur
+Afficher "Entrez les éléments de la matrice A :"
+Pour i allant de 1 à 3 :
+    Pour j allant de 1 à 3 :
+        Afficher "A[" + i + "][" + j + "] :"
+        Lire A[i][j]
+
+// Saisie des éléments de la matrice B par l'utilisateur
+Afficher "Entrez les éléments de la matrice B :"
+Pour i allant de 1 à 3 :
+    Pour j allant de 1 à 3 :
+        Afficher "B[" + i + "][" + j + "] :"
+        Lire B[i][j]
+
+// Calcul de la somme des matrices A et B
+Pour i allant de 1 à 3 :
+    Pour j allant de 1 à 3 :
+        S[i][j] = A[i][j] + B[i][j]
+
+// Affichage de la matrice résultante S
+Afficher "La somme des matrices A et B est :"
+Pour i allant de 1 à 3 :
+    Pour j allant de 1 à 3 :
+        Afficher S[i][j] suivi d'un espace
+    Afficher une nouvelle ligne
