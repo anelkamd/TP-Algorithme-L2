@@ -16,7 +16,7 @@ public class CotationEtudiants {
         System.out.println("Entrez le nombre de points obtenus dans l'Algorithme (sur " + pointsMaxAlgo + " points) :");
         int pointsAlgo = scanner.nextInt();
 
-        System.out.println("Entrez le nombre de points obtenus en Programmation Orientée Objet (sur " + pointsMaxPOO + " points) :");
+        System.out.println("Entrez le nombre de points obtenus en Programmation Orientée Objet ( sur " + pointsMaxPOO + " points) :");
         int pointsPOO = scanner.nextInt();
 
         System.out.println("Entrez le nombre de points obtenus en Recherche Opérationnelle (sur " + pointsMaxRO + " points) :");
